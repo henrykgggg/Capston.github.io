@@ -16,20 +16,26 @@ body{
  .nav-lists{
     display: flex;
     flex-direction:column;
-   
+    align-items: center;
+    gap: 20px;
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.nav-lists a{
+    list-style-type: none;
+    text-decoration: none;
+
 }
 .items {
     text-decoration: none;
     list-style-type: none;
 }
-.item{
+.nav-lists li{
     list-style-type: none;
-    color: #ec5242;
 }
 .item6{
 list-style-type: none;
-border: 3px solid red;
-width:50%;
 }
 .menu-btn{
     font-family: "Poppins", sans-serif;
@@ -42,6 +48,7 @@ width:50%;
 }
 .first-text{
     color:#ec5242;
+    margin-top: 0%;
 
 }
 .h1demo{
@@ -50,26 +57,30 @@ width:50%;
     font-weight: 700;
     font-size:40px;
 }
-.frst-text{
-    border: 2px solid #fff;
-}
+
 
 .p-container{
     color:rgb(85, 82, 82);
+    background-color: #fff;
     
 }
 .p-container > * {
     font-family: "Poppins", sans-serif;
-    border-color: 1px solid rgb(138, 47, 47);
     border: 10px;
+}
+.frst-text{
+    border: 2px solid #d3d3d3;
+    background-color:#fff;
 }
 .section-1{
   padding: 80px 24px 0;
-  background-image: url("./images/main_big.png");
-  background-color: var(--primary);
+  background-image: url("./images/imaages.png");
+  background-color:#272a31;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+margin: 0 auto;
+
 }
 .p-2{
     font-size:x-large;
@@ -160,8 +171,7 @@ cursor: pointer;
 .speakerCard{
     display: flex;
     flex-direction: row;   
-    width: 100%
-
+ width: 100%;
 }
 
 .holder{
@@ -226,4 +236,28 @@ cursor: pointer;
 }
 .box-container .right {
     color: #595959;
+}
+
+.main-contain{
+    display: flex;
+    flex-direction:row;
+    margin: 12px auto;
+    height: 100%;
+    width: 80%;
+}
+
+.main-contain h2{
+    color: #272a31;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.btn-click {
+
 }
