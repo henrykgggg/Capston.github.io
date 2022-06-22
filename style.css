@@ -5,6 +5,7 @@ body{
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+
 .header{
     background-color:#fff;
     padding-top: 15px;
@@ -61,8 +62,8 @@ width:50%;
 }
 .section-1{
   padding: 80px 24px 0;
+  background-image: url("./images/main_big.png");
   background-color: var(--primary);
-  background-image: linear-gradient(rgba(238, 238, 238, 0.87), rgb(235, 235, 235)), url('../images/home-mobile.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,10 +160,9 @@ cursor: pointer;
 }
 .speakerCard{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
     width: 100%
-     
+
 }
 
 
