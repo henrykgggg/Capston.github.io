@@ -22,7 +22,7 @@ document.addEventListener('click', (event) => {
     if (event.target.id === 'close-menu') {
         closeMenu();
     } else {
-       closeMenu();
+        console.log('none');
     }
 });
 

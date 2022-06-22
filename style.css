@@ -32,8 +32,9 @@ border: 3px solid red;
 width:50%;
 }
 .menu-btn{
+    font-family: "Poppins", sans-serif;
     border: none;
-    font-size:x-large;
+    font-size:40px;
     background-color: #fff;
 }
 .h-container{
@@ -44,9 +45,11 @@ width:50%;
 
 }
 .h1demo{
+    font-family: "poppins", sans-serif;
     color:#ec5242 ;
+    font-weight: 700;
+    font-size:40px;
 }
-
 .frst-text{
     border: 2px solid #fff;
 }
@@ -77,7 +80,7 @@ width:50%;
     position: fixed;
     flex-direction: column;
     justify-content: start;
-    background-color:rgb(77, 212, 170);
+    background-color:#fff666;
     backdrop-filter: blur(3px);
     height: 100vh;
     gap: 8px;
@@ -104,7 +107,6 @@ cursor: pointer;
     width: 100%;
     background-repeat: repeat;
     background-color: rgba(39, 42, 50, 0.993);
-    background-image: url("../images/about-img.png");
     padding: 10px ;
   }
   .program{
@@ -118,10 +120,7 @@ cursor: pointer;
      justify-content: center;
      color: #fff;
   }
-  .program-section{
-      width: 100%;
-  }
-
+  
 .program li{
   display: flex;
   flex-direction: row;
@@ -147,16 +146,16 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     width: 70%;
+    height: 100px;
     margin: 50px auto;
   background-color: #ec5242;
-  padding: 20px 15px ;
+  padding: 35px 20px ;
   color: #fff;
   font-size: large;
-  border-radius: 8px;
   cursor: pointer;
   }
 .btn-program:hover{
-    background-color: blueviolet;
+    background-color:rgb(139, 11, 11);
 }
 .speakerCard{
     display: flex;
@@ -165,9 +164,66 @@ cursor: pointer;
 
 }
 
-
 .holder{
     display: flex;
     flex-direction: column;
     
+}
+
+.partner-container {
+    background: #272a31;
+    padding-top: 3em;
+}
+
+.main-container h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    color: #d3d3d3;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.box1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box2 {
+    font-family: "Times New Roman", Times, serif;
+}
+.box3 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.footer-container {
+    padding-top: 4em;
+    padding-top: 4em;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #272a31;
+    padding: 2em;
+}
+.box-container > * {
+    flex:1 1 0;
+}
+.box-container .left {
+    color: #272a31;
+    font-size: 20px;
+    font-weight:700;
+}
+.box-container .right {
+    color: #595959;
 }
