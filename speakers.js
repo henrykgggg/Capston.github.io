@@ -1,18 +1,39 @@
 const speakers =[
     {
         name:'james',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         src:'./images/yoo.jpg',
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble."
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
     },
     {
         name:'chriss',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         src:'./images/yoo.jpg',
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble."
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
     },
     {
         name:'jadden',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         src:'./images/yoo.jpg',
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble."
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        name:'jadden',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        src:'./images/yoo.jpg',
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        name:'jadden',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        src:'./images/yoo.jpg',
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+        name:'jadden',
+        subtittle:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        src:'./images/yoo.jpg',
+        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
     }
 ]
 
@@ -21,18 +42,23 @@ const speakersContainer = document.getElementById('speakersContainer')
 
 function speakerInfo (index){
 const spekerCard =document.createElement('div')
-spekerCard.classList.add('speakerCard')
+spekerCard.className='speakerCard';
 speakersContainer.appendChild(spekerCard)
 spekerCard.innerHTML =` 
+<div class ="speakers">
 <div class="main-contain">
-<img class="img" src=${speakers[index].src} />
+<div class="images">
+<img  src=${speakers[index].src} />
+</div>
 <div class="holder">
 <h2 class="speakerName">${speakers[index].name}</h2>
-
+<hr class="horizontal">
+<p class="subtittle"><i>${speakers[index].subtittle}</i></p>
 <p class="paragraph">${speakers[index].description}</p>
 </div>
 </div>
 <div>
+</div>
 </div>
 `
 }

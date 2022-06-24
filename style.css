@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -22,7 +23,7 @@ body {
   align-items: center;
   gap: 20px;
   font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .nav-lists a {
@@ -127,23 +128,45 @@ body {
   border: #ec5242;
 }
 
-.program-section {
+.program-sectio {
   width: 100%;
   background-repeat: repeat;
   background-color: rgba(39, 42, 50, 0.993);
-  padding: 10px;
+  /* padding: 10px; */
 }
-
+.program-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -20px;
+  padding-right: 20px;
+}
+h4 {
+  color: #ec5242;
+}
+.card-paragraph {
+  color: #d3d3d3;
+}
 .program {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 90%;
+  /* width: 90%; */
 }
-
-.main h2 {
+.first-list {
   display: flex;
-  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+  border: #595959 solid;
+  background-color: #595959;
+  padding: 10px;
+}
+.main2 {
+  text-align: center;
+  color: #000;
+}
+.mainH {
+  text-align: center;
   color: #fff;
 }
 
@@ -152,20 +175,21 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 90%;
-  min-height: 110px;
+
+  /* min-height: 110px; */
   list-style-type: none;
-  justify-self: center;
-  justify-content: space-around;
+
+  /* justify-self: center; */
   padding: 6px;
   background-color: #acacac1f;
 }
 
-.program h3 {
+.program h4 {
   color: #ec5242;
 }
 
 .program p {
-  padding-left: 15px;
+  /* padding-left: 15px; */
   color: #fff;
 }
 
@@ -201,6 +225,17 @@ body {
   flex-direction: column;
 }
 
+.images {
+  max-width: 70%;
+  max-height: 70%;
+  padding-top: 10px;
+}
+
+.speakerName {
+  margin: 0%;
+  font-size: small;
+}
+
 .partner-container {
   background: #272a31;
   padding-top: 3em;
@@ -209,7 +244,7 @@ body {
 .main-container h2 {
   color: #fff;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 0%;
   font-size: 2.5rem;
   font-weight: 400;
 }
@@ -225,7 +260,7 @@ body {
 }
 
 .box1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .box2 {
@@ -233,7 +268,7 @@ body {
 }
 
 .box3 {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
 }
 
 .footer-container {
@@ -263,30 +298,67 @@ body {
   color: #595959;
 }
 
+hr {
+  width: 40px;
+  height: 2px;
+  border: none;
+  background-color: #ec5242;
+}
+
 .main-contain {
   display: flex;
   flex-direction: row;
   margin: 12px auto;
   height: 100%;
-  width: 80%;
+  width: 90%;
+  gap: 18px;
 }
 
-.main-contain h2 {
+.contain h2 {
   color: #272a31;
   text-align: center;
-  padding-top: 2em;
   font-size: 2.4rem;
   font-weight: 400;
 }
 
-.paragraph {
-  font-family: 'Poppins', sans-serif;
+.paragraph p {
+  font-family: "Poppins", sans-serif;
   text-align: left;
 }
 
+.holder p {
+  width: auto;
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 768px) {
-  .menu-btn {
+  #menu-btn {
     display: none;
+  }
+
+  .program-lists {
+    /* border: red solid; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding-left: -40px;
+  }
+
+  .first-list {
+    border: #595959 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+  }
+  .card-paragraph {
+    font-size: 12px;
+    text-align: center;
   }
 
   .top-bar {
@@ -296,16 +368,49 @@ body {
     background-color: black;
   }
 
+  .program-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* .card-p{
+    font-size: 10px;
+  } */
   .container ul {
     display: flex;
     flex-direction: row;
     justify-content: end;
     list-style-type: none;
-    gap: 12px;
-    padding-right: 102px;
-    margin: 0%;
+
+    /* gap: 12px; */
+
+    /* padding-right: 102px; */
+
+    /* margin: 0%; */
   }
 
+  .main-contain {
+    display: flex;
+  }
+  #speakersContainer {
+    margin-left: 15px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .horizontal {
+    width: 30px;
+    height: 2px;
+    background-color: #595959;
+    border: none;
+    margin-left: -3px;
+  }
+  .subtittle {
+    color: #ec5242;
+    font-size: 10px;
+  }
   .navi-list a {
     text-decoration: none;
     color: #272a31;
