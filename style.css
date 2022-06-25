@@ -207,20 +207,14 @@ h4 {
 }
 
 .btn-program {
-  display: flex;
-  justify-content: center;
   width: 70%;
-  height: 100px;
-  margin: 50px auto;
+  margin: 50px 40px;
+  margin-bottom: 20px;
   background-color: #ec5242;
-  padding: 35px 20px;
+  padding: 35px 15px;
   color: #fff;
   font-size: large;
   cursor: pointer;
-}
-
-.btn-program:hover {
-  background-color: rgb(139, 11, 11);
 }
 
 .speakerCard {
@@ -234,15 +228,38 @@ h4 {
   flex-direction: column;
 }
 
-.images {
+/* .images {
   max-width: 70%;
   max-height: 70%;
   padding-top: 10px;
+} */
+
+
+.images {
+  padding-top: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.images img {
+  width: 110%;
+  height: 70%;
 }
 
 .speakerName {
   margin: 0%;
   font-size: small;
+}
+
+.horizontal {
+  margin-left: -3px;
+  background-color: #272a31;
+}
+
+.subtittle {
+  color: #ec5242;
 }
 
 .partner-container {
@@ -297,6 +314,10 @@ h4 {
   flex: 1 1 0;
 }
 
+.main-logo {
+  display: none;
+}
+
 .box-container .left {
   color: #272a31;
   font-size: 20px;
@@ -322,6 +343,8 @@ hr {
   width: 90%;
   gap: 18px;
 }
+
+
 
 .contain h2 {
   color: #272a31;
@@ -426,10 +449,11 @@ hr {
     font-size: 10px;
   }
 
-  .btn-program{
-    margin: 50px auto;
-    padding: 35px 20px;
+  .btn-program {
+    background-color: rgba(39, 42, 50, 0.993);
     color: #fff;
+    margin-left: 160px;
+    border: none;
   }
 
   .navi-list a {
@@ -457,6 +481,7 @@ hr {
   }
 
   .navi-list {
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -503,8 +528,23 @@ hr {
 
   .logo-holder {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main-logo {
+    padding-top: 10px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .main-logo img {
+    width: 20%;
+    height: 20%;
   }
 
   .frst-text {

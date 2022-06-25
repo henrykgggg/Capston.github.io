@@ -50,8 +50,8 @@
   }
 
   .logo {
-    width: 35%;
-    margin: 0%;
+    width: 55%;
+    margin: 45px;
   }
 
   .section-2 {
@@ -71,6 +71,10 @@
     width: 70%;
   }
 
+  #menu-btn {
+    display: none;
+  }
+
   .foundation-container p {
     margin-bottom: 30px;
   }
@@ -78,7 +82,7 @@
   .last-paragraph {
     display: flex;
     flex-direction: row;
-align-items: center;
+    align-items: center;
     padding: 0 0 50px 0;
   }
 
@@ -93,6 +97,14 @@ align-items: center;
   .partner-container {
     display: none;
   }
+}
+
+.logo {
+  margin-left: 17px;
+}
+
+#logo {
+  display: none;
 }
 
 .section-i {
@@ -112,6 +124,12 @@ align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+
+.section-2 > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-i > * {
