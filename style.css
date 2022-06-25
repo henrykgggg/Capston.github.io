@@ -280,9 +280,9 @@ h4 {
   font-family: "Amatic SC", cursive;
 }
 
-.footer-container {
-  padding-top: 4em;
-}
+/* .footer-container {
+  padding-top: 1em;
+} */
 
 .box-container {
   display: flex;
