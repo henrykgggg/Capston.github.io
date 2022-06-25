@@ -2,12 +2,14 @@
 
 Capton project
 
-This my portofolio website which describe my ability and my recents projects and teck I used.
+This my portofolio website which describe my ability and my recents projects and teck I used.![screencapture-127-0-0-1-5500-Capston-index-html-2022-06-25-07_44_36](https://user-images.githubusercontent.com/88551100/175778651-3d36d4e7-ebf7-4b11-aaf7-cf4f1e64b7a8.png)
+
 
 ## Built With
 
 - html
 - css
+- javascript
 
 ## Live Demo
 
