@@ -38,3 +38,10 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
+
+## Acknowledgments
+
+- Microverse
+- Cindy Shin
+- [Creative Commons Korea](https://creativecommons.org/licenses/by-nc/4.0/)
+

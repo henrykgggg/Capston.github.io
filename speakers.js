@@ -2,13 +2,13 @@ const speakers = [
   {
     name: 'james',
     subtittle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    src: './images/hll.jpg',
+    src: './images/thant.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
   {
     name: 'chriss',
     subtittle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    src: './images/yoo.jpg',
+    src: './images/thant.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
   {
@@ -20,13 +20,13 @@ const speakers = [
   {
     name: 'jadden',
     subtittle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    src: './images/yoo.jpg',
+    src: './images/thant.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
   {
     name: 'jadden',
     subtittle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    src: './images/hll.jpg',
+    src: './images/thant.jpg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
   {
