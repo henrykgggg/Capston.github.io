@@ -11,7 +11,7 @@ This my portofolio website which describe my ability and my recents projects and
 
 ## Live Demo
 
-[henrykgggg's capston](https://henrykgggg.github.io/)
+[henrykgggg's capston](https://henrykgggg.github.io/Capston.github.io/)
 
 ## Getting Started
 
